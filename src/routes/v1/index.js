@@ -1,0 +1,11 @@
+const express = require('express');
+const travelerRoutes = require('./routeTraveler.js');
+const authRoutes = require('./auth-routes.js');
+const lockerRoutes = require('./locker-routes.js');
+const releaseRoutes = require('./release-routes.js');
+const router = express.Router();
+router.use('/traveler',travelerRoutes);
+router.use('/auth',authRoutes);
+router.use('/locker',lockerRoutes);
+router.use('/release',releaseRoutes);
+module.exports = router;
