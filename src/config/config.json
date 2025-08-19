@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "",
-    "database": "abc",
+    "password": "1234",
+    "database": "vaultpass_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
